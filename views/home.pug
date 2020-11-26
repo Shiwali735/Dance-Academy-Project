@@ -1,0 +1,51 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+block style
+    style
+        include ../static/style.css
+block content
+    //- nav#navbar
+    //-     ul
+    //-         div#logo
+    //-             img(src="/static/img/logo.png")
+    //-             | HDA
+    //-         li #[a(href="/") Home]
+    //-         li #[a(href="/") About]
+    //-         li #[a(href="/") Contact Us]
+    //-         li #[a(href="/") Class info]
+    //-         li #[a(href="/") Services]
+
+    section#introsection
+           div Welcome to Harry's Dance Academy
+           div.small Eat, Sleep ,Dance Repeat
+    section#missionsection
+           h1 Our Mission
+           div.card
+              h2 Dance perfection
+                div.card-box
+                  div.card-img.first
+                      img(src="/static/img/1.png")
+                  div.card-content
+                      p This is the best dance academy of the universe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia illum suscipit deserunt tempore optio reiciendis eveniet voluptatibus, ipsum nulla voluptas.
+           div.card
+              h2 Dance the way you like
+                div.card-box
+                  div.card-img
+                      img(src="/static/img/2.png")
+                  div.card-content
+                      p This is the best dance academy of the universe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minima illo quod veritatis facere modi unde quis ab pariatur consequatur!
+           div.card
+              h2 Expert teaching
+                div.card-box
+                  div.card-img
+                      img(src="/static/img/3.png")
+                  div.card-content
+                      p This is the best dance academy of the universe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique placeat dolorum labore, debitis nihil provident repudiandae odit minima cum quae?
+    section#sponsersection
+           h1 Our sponsers
+           div#sponsors
+                img(src="/static/img/img6.jpg", alt="Sponsors Image", class="spImage")
+                img(src="/static/img/img7.jpg", alt="Sponsors Image", class="spImage")
+                img(src="/static/img/img8.jpg", alt="Sponsors Image", class="spImage")
+                img(src="/static/img/img9.webp", alt="Sponsors Image", class="spImage")

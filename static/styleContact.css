@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myInput{
+    font-size: 16px;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    margin: 9px;
+    border: 2px solid rgb(124, 20, 20);
+    border-radius: 13px;
+    outline: none;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 7px 19px;
+    font-size: 19px;
+    border: 2px solid rgb(83, 16, 16);
+    border-radius: 10px;
+    color: rgb(247, 243, 243);
+    background-color: rgb(15, 1, 1);
+    cursor: pointer;
+    margin: 7px;
+    outline: none;
+}
+.container{
+    min-height: 72vh;
+    margin: 30px 0;
+}
+.container h1{
+    font-family: 'Sansita Swashed', cursive ;
+    font-size: 34px;
+}

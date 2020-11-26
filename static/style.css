@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 0px;
+    font-size: 35px;
+}
+#logo img{
+    height: 120px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar{
+    background-color:#e93d3d;
+    padding: 17px 0px;
+    font-family: 'Sansita Swashed', cursive;
+}
+#navbar ul{
+    height: 70px;
+    display: flex;
+    /* justify-content: center; */
+    /* center in row */
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: rgb(20, 1, 1);
+}
+#introsection{
+    color: white;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height:450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:red;
+    padding-bottom: 22px;
+}
+#introsection div.small{
+    font-size: 27px;
+    padding-top: 4px;
+}
+#missionsection{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    /* background-color: #e93d3dcc; */
+}
+#missionsection h1{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+#missionsection div h2{
+    font-family: 'Lobster', cursive;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 31%;
+    height: 209px;
+    margin: 18px 15px;
+    display: inline-block;
+}
+
+.card h2{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+.card-img{
+    height: 150px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+padding: 0 10px;
+}
+.card-content p{
+    font-size: 17px;
+}
+#sponsersection{
+height:250px;
+background-color:#ee8181cc;
+}
+#sponsersection h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+#sponsors{
+        height: 170px;
+        max-width: 1000px;
+        margin: auto;
+}
+.spImage{
+    height: 110%;
+    padding: 20px;
+    margin: auto;
+}
+#footer{
+height:40px;
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-family: 'David Libre', serif;
+}
