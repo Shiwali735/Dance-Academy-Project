@@ -4,10 +4,10 @@
     box-sizing: border-box;
     padding: 0;
 }
-h1{
+/* h1{
     text-align: center;
     margin: 12px 0;
-}
+} */
 .myInput{
     font-size: 16px;
     text-align: center;
@@ -19,11 +19,12 @@ h1{
     outline: none;
 }
 .myForm{
-    margin-top: 95px;
+    /* margin-top: 95px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 175px;
 }
 .btn{
     padding: 7px 19px;
@@ -37,8 +38,8 @@ h1{
     outline: none;
 }
 .container{
-    min-height: 72vh;
-    margin: 30px 0;
+    min-height: 95vh;
+    margin: 0;
 }
 .container h1{
     font-family: 'Sansita Swashed', cursive ;
