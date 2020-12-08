@@ -38,7 +38,9 @@ app.post('/contact', (req, res)=>{
     myData.save().then(()=>{
     res.send("This item has been saved to the database");
     }).catch(()=>{
-    res.status(400).send("item was not saved to the databse");})
+    res.status(400).send("item was not saved to the databse");
+    });
+    // res.status(200).render('contact.pug');
 })
 app.get('/index', (req, res)=>{
     const params = { }
